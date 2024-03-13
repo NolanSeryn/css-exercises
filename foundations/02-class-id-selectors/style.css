@@ -1,8 +1,9 @@
-p {
+.odd {
     background-color: #ff7878;
     font-family: 'Verdana', 'DejaVu Sans', sans-serif;
 }
-.class-two {
+
+.adjust-size {
     font-size: 24px;
 }
 
@@ -13,7 +14,5 @@ p {
 
 #green-line {
     background-color: hsl(110, 92%, 47%);
-    font-size: 24px;
     font-weight: bold;
-    
 }
