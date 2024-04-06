@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.header {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 650;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
 html, body {
   height: 100%;
 }
@@ -18,6 +27,9 @@ body {
 .modal {
   background: white;
   width: 480px;
+  display:flex;
+  gap: 15px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -31,6 +43,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -66,4 +79,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+  margin-bottom: 15px;
 }
